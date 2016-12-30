@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>by_types</help_box>
+        <hide_standard_custom_fields_metabox>show</hide_standard_custom_fields_metabox>
+        <postmeta_unfiltered_html>on</postmeta_unfiltered_html>
+        <usermeta_unfiltered_html>on</usermeta_unfiltered_html>
+    </settings>
+    <groups>
+        <group>
+            <ID>33</ID>
+            <post_content></post_content>
+            <post_title>Field Agistments</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_fields>,rate-per-week,availability,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,,agistments,</_wp_types_group_post_types>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_templates>,,</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+            </meta>
+            <hash>b5f220d40d27e5db08eefb1a28dc1aee</hash>
+            <checksum>b5f220d40d27e5db08eefb1a28dc1aee</checksum>
+            <__types_id>field-agistments</__types_id>
+            <__types_title>Field Agistments</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>rate-per-week</id>
+            <slug>rate-per-week</slug>
+            <type>numeric</type>
+            <name>Rate per week</name>
+            <description></description>
+            <data>
+                <slug-pre-save>rate-per-week</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This field is required.</message>
+                    </required>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data.</message>
+                    </number>
+                </validate>
+                <custom_use></custom_use>
+                <submit-key>rate-per-week</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-rate-per-week</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>rate-per-week</__types_id>
+            <__types_title>Rate per week</__types_title>
+            <hash>7817474f958c31ee2c95b497819ed0de</hash>
+            <checksum>7817474f958c31ee2c95b497819ed0de</checksum>
+        </field>
+        <field>
+            <id>availability</id>
+            <slug>availability</slug>
+            <type>textfield</type>
+            <name>Availability</name>
+            <description></description>
+            <data>
+                <slug-pre-save>availability</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This field is required.</message>
+                    </required>
+                </validate>
+                <custom_use></custom_use>
+                <submit-key>availability</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-availability</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>availability</__types_id>
+            <__types_title>Availability</__types_title>
+            <hash>a8d2e7aee5e7a4d174b2964a54d5c67a</hash>
+            <checksum>a8d2e7aee5e7a4d174b2964a54d5c67a</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <_builtin></_builtin>
+            <_toolset_edit_last>1483013936</_toolset_edit_last>
+            <_wpcf_author_id>1</_wpcf_author_id>
+            <wpcf-post-type>agistments</wpcf-post-type>
+            <icon>admin-post</icon>
+            <labels>
+                <name>Agistments</name>
+                <singular_name>Agistment</singular_name>
+                <add_new>Add New agistment</add_new>
+                <add_new_item>Add News %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+                <enter_title_here>Enter title here</enter_title_here>
+            </labels>
+            <slug>agistments</slug>
+            <description>Description agistment</description>
+            <public>public</public>
+            <menu_position>20--wpcf-add-menu-after--edit.php?post_type=page</menu_position>
+            <custom-field-group>
+                <group_33>33</group_33>
+            </custom-field-group>
+            <custom_fields>
+                <wpcf-rate-per-week>1</wpcf-rate-per-week>
+                <wpcf-availability>1</wpcf-availability>
+            </custom_fields>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <excerpt>1</excerpt>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <has_archive_slug></has_archive_slug>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <rest_base></rest_base>
+            <post_relationship>
+                <belongs>
+                    <page>1</page>
+                </belongs>
+            </post_relationship>
+            <id>agistments</id>
+            <__types_id>agistments</__types_id>
+            <__types_title>Agistments</__types_title>
+            <hash>a9ed743572644a71f138ab55495b6408</hash>
+            <checksum>a9ed743572644a71f138ab55495b6408</checksum>
+        </type>
+    </types>
+    <post_relationships>
+        <data>{&quot;page&quot;:{&quot;agistments&quot;:[]}}</data>
+    </post_relationships>
+</types>
