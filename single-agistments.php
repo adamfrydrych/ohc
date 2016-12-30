@@ -19,7 +19,6 @@ get_header(); ?>
 
 	<div class="entry-content"> 
 <?php 
-
       // Rate per week
       echo("Rate per week: <strong>$" . types_render_field( 'rate-per-week', array( 'output' => 'normal' ) ) . "</strong> | "); 
       // Availability
