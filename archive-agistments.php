@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying archive pages type agistment
+ * The template for displaying archive pages type agistment lp
  */
 
 get_header(); ?>
